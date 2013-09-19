@@ -1,0 +1,11 @@
+body {
+  color: #333333;
+  font-family: "Open Sans", sans-serif; }
+
+#author img {
+  width: 48px;
+  heigth: 48px; }
+
+.book-info {
+  padding-bottom: 30px;
+  padding-top: 10px; }

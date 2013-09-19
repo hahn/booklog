@@ -1,0 +1,19 @@
+{
+  "name": "booklog",
+  "version": "0.0.0",
+  "homepage": "https://github.com/hahn/booklog",
+  "authors": [
+    "hahn <matcherapy@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.0"
+  }
+}
