@@ -28,7 +28,19 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
+app.get('/contact',routes.contact);
+app.get('/about',routes.about);
 app.get('/users', user.list);
+
+app.post('/api/book', routes.create);
+
+app.get('/api/book/bookid', routes.get);
+
+app.get('/api/book/:bookid/:bookname', routes.getName);
+
+app.put('/api/book/:id', routes.update);
+
+app.delete('/api/book/:id', routes.delete);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
